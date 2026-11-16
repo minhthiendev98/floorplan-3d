@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <title>Dạo căn hộ 3D</title>
+        <link rel="stylesheet" href="/src/style.css" />
+    </head>
+    <body>
+        <div class="stage" id="stage" tabindex="0" aria-label="Khung game 3D dạo căn hộ">
+            <div class="hud hud-tl">
+                <span class="room-chip" id="roomChip">Đang tải…</span>
+                <span class="coords" id="coords"></span>
+            </div>
+            <div class="cross" id="cross" hidden></div>
+            <div class="hint" id="hint" hidden>Esc để thả chuột</div>
+            <div class="toolbar" id="toolbar"></div>
+            <canvas class="mini" id="mini" aria-label="Minimap mặt bằng, bấm để đi tới"></canvas>
+            <div class="joy" id="joy" hidden><i id="joyKnob"></i></div>
+
+            <div class="overlay" id="loading">
+                <div class="card">
+                    <h3>Đang dựng căn hộ…</h3>
+                    <div class="bar"><i id="barFill"></i></div>
+                    <p id="loadText">Nạp vật liệu và nội thất</p>
+                </div>
+            </div>
+            <div class="overlay" id="overlay" hidden>
+                <div class="card">
+                    <h3>Căn hộ 2 phòng ngủ <span class="dim" id="sizeText"></span></h3>
+                    <p>Dựng từ ảnh mặt bằng, tỉ lệ ước lượng 68 px = 1 m. Mắt người chơi cao 1.6 m, cửa tự mở khi lại gần.</p>
+                    <div class="keys">
+                        <kbd>W A S D</kbd><span>Di chuyển (hoặc phím mũi tên)</span>
+                        <kbd>Chuột</kbd><span>Nhìn quanh (bấm vào khung để khoá chuột)</span>
+                        <kbd>Shift</kbd><span>Đi nhanh</span>
+                        <kbd>Minimap</kbd><span>Bấm một điểm để tự đi tới đó</span>
+                        <kbd>Điện thoại</kbd><span>Nửa trái kéo để đi, nửa phải kéo để nhìn</span>
+                    </div>
+                    <div class="row">
+                        <button class="btn primary" id="btnWalk">Bắt đầu đi bộ</button>
+                        <button class="btn ghost" id="btnTour">Xem tour tự động</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>

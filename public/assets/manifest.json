@@ -1,0 +1,56 @@
+{
+  "textures": {
+    "laminate_floor_02": {
+      "diff": "textures/laminate_floor_02/diff.jpg",
+      "nor": "textures/laminate_floor_02/nor.jpg",
+      "rough": "textures/laminate_floor_02/rough.jpg"
+    },
+    "walnut_veneer": {
+      "diff": "textures/walnut_veneer/diff.jpg",
+      "nor": "textures/walnut_veneer/nor.jpg",
+      "rough": "textures/walnut_veneer/rough.jpg"
+    },
+    "brown_leather": {
+      "diff": "textures/brown_leather/diff.jpg",
+      "nor": "textures/brown_leather/nor.jpg",
+      "rough": "textures/brown_leather/rough.jpg"
+    },
+    "rough_linen": {
+      "diff": "textures/rough_linen/diff.jpg",
+      "nor": "textures/rough_linen/nor.jpg",
+      "rough": "textures/rough_linen/rough.jpg"
+    },
+    "cotton_jersey": {
+      "diff": "textures/cotton_jersey/diff.jpg",
+      "nor": "textures/cotton_jersey/nor.jpg",
+      "rough": "textures/cotton_jersey/rough.jpg"
+    },
+    "large_grey_tiles": {
+      "diff": "textures/large_grey_tiles/diff.jpg",
+      "nor": "textures/large_grey_tiles/nor.jpg",
+      "rough": "textures/large_grey_tiles/rough.jpg"
+    },
+    "painted_plaster_wall": {
+      "diff": "textures/painted_plaster_wall/diff.jpg",
+      "nor": "textures/painted_plaster_wall/nor.jpg",
+      "rough": "textures/painted_plaster_wall/rough.jpg"
+    },
+    "fabric_pattern_07": {
+      "nor": "textures/fabric_pattern_07/nor.jpg",
+      "rough": "textures/fabric_pattern_07/rough.jpg"
+    }
+  },
+  "hdris": {
+    "kloofendal_48d_partly_cloudy_puresky": "hdri/kloofendal_48d_partly_cloudy_puresky.hdr"
+  },
+  "models": {
+    "potted_plant_01": "models/potted_plant_01/potted_plant_01.gltf",
+    "potted_plant_02": "models/potted_plant_02/potted_plant_02.gltf",
+    "potted_plant_04": "models/potted_plant_04/potted_plant_04.gltf",
+    "dining_chair_02": "models/dining_chair_02/dining_chair_02.gltf",
+    "modern_arm_chair_01": "models/modern_arm_chair_01/modern_arm_chair_01.gltf",
+    "book_encyclopedia_set_01": "models/book_encyclopedia_set_01/book_encyclopedia_set_01.gltf",
+    "ceramic_vase_03": "models/ceramic_vase_03/ceramic_vase_03.gltf",
+    "desk_lamp_arm_01": "models/desk_lamp_arm_01/desk_lamp_arm_01.gltf"
+  }
+}

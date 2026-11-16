@@ -1,0 +1,20 @@
+{
+    "name": "floorplan-3d",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+        "assets": "node scripts/fetch-assets.mjs",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "n8ao": "^1.9.2",
+        "postprocessing": "^6.36.0",
+        "three": "^0.169.0"
+    },
+    "devDependencies": {
+        "vite": "^5.4.0"
+    }
+}
